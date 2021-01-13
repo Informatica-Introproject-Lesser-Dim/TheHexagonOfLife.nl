@@ -1,0 +1,125 @@
+ body{
+	margin: 0;
+	padding: 0;
+    background-color: #FFFFFF;
+}
+.achtergrond {
+    background-image: url("https://images.unsplash.com/photo-1587063904052-7fa7e23fc11f");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 20em;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.linkless{
+	text-decoration: none;
+	color: #9FDEE9;
+}
+
+.navigatie {
+	position: sticky;
+	top: 0;
+	object-position: 50% 0%;
+	width: 100%;
+	background-color: #003643
+}
+
+.navigatie a:hover {
+	color: #C1EFC6;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    margin-left: 5%;
+    color: #003643;
+}
+
+.tekst {
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+    color: #003643;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    font-size: 15px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+li {
+	float: left;	
+	display: inline-block;
+	padding: 15px;
+	font-family: 'Verdana', 'Geneva', sans-serif;
+	font-size: 15px;
+    font-weight: 600;
+	}
+
+#footer {
+    width: 100%;
+    border-top: 3px solid #003643;
+    background: #999;
+    position: absolute;
+    bottom: 0;
+}
+#ft-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;/*contain floats*/
+    background: #C1EFC6;
+    text-align: left;
+}
+#ft-list li {
+    float: left;
+    width: 500px;
+    height: 6rem;
+    margin: 0 15px 0 0;
+    color: #003643
+}
+#ft-list li.last {
+    float: right;
+    margin: 0;
+    text-align: right;
+  }
+#ft-list a.link {
+    color: #7B9C94;
+}
+
+header { 
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 1em; 
+} 
+
+header img {
+	width: 13em;
+	position: absolute;
+	left: 0.001%;
+	z-index: 100;
+}
+    
+.poster {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 8rem;   
+}
