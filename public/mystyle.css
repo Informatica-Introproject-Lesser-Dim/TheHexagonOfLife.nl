@@ -82,7 +82,7 @@ li {
 }
 #ft-list li {
     float: left;
-    width: 500px;
+    width: 25rem;
     height: 6rem;
     margin: 0 15px 0 0;
     color: #003643
