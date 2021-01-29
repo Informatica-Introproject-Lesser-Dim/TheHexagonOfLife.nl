@@ -116,6 +116,11 @@ header img {
     height: 100%;
 }
 
+.images {
+    width: 30%;
+    height: 30%;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
